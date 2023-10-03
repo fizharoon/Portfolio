@@ -5,6 +5,7 @@ import {Banner} from './Components/Banner'
 import {Skills} from "./Components/Skills"
 import {Projects} from "./Components/Projects"
 import { Footer } from './Components/Footer';
+// import {Contact} from './Components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <Skills/>
       <Projects/>
+      {/* <Contact/> */}
       <Footer/>
     </div>
   );
