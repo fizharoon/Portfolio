@@ -9,8 +9,13 @@ export const Footer = () => {
     return (
     <footer className="footer">
         <Container>
+            <Row>
+                <br></br>
+                <br></br>
+                <br></br>
+            </Row>
             <Row className="align-item-center">
-                <MailchimpForm/>
+                {/* <MailchimpForm/> */}
                 <Col sm={6}>
                     <img src={logo} alt="Logo"/>
                 </Col>

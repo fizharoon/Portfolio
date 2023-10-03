@@ -45,9 +45,9 @@ export const NavBar = () => {
                             className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
                             onClick={()=> onUpdateActiveLink('skills')} >Skills</Nav.Link>
 
-                        <Nav.Link href="#projects" 
-                            className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
-                            onClick={()=> onUpdateActiveLink('projects')} >Projects</Nav.Link>
+                        <Nav.Link href="#project" 
+                            className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} 
+                            onClick={()=> onUpdateActiveLink('project')} >Projects</Nav.Link>
 
                     </Nav> 
                     <span className="navbar-text">
@@ -57,7 +57,7 @@ export const NavBar = () => {
                             <a href="#"><img src={navIcon3} alt=""/></a>
 
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        {/* <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button> */}
                     </span>
                 </Navbar.Collapse>
 
